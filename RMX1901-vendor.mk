@@ -357,7 +357,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
-    audio.primary.sdm710 \
+    audio.primary.qcom \
     sound_trigger.primary.sdm710 \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
