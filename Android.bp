@@ -3196,7 +3196,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.sdm710",
+    name: "audio.primary.qcom",
     owner: "realme",
     strip: {
         none: true,
@@ -3204,7 +3204,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.sdm710.so",
+                "proprietary/vendor/lib/hw/audio.primary.qcom.so",
             ],
             shared_libs: [
                 "libbase",
