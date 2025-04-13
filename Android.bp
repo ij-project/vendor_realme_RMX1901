@@ -3588,72 +3588,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "android.hidl.base@1.0",
-                "liboppo_log_print",
-                "libbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
-                "libjpeg",
-                "libexif",
-                "libmpbase",
-                "libOppoAPSMemMgr",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "android.hidl.base@1.0",
-                "liboppo_log_print",
-                "libbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
-                "libjpeg",
-                "libexif",
-                "libmpbase",
-                "libOppoAPSMemMgr",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vulkan.adreno",
     owner: "realme",
     strip: {
@@ -3899,55 +3833,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libion",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOppoAlgoClient",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOppoAlgoClient.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
-                "libOppoAPSMemMgr",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libOppoAlgoClient.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
-                "libOppoAPSMemMgr",
                 "libc++",
                 "libc",
                 "libm",
@@ -11694,6 +11579,46 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "android.hidl.base@1.0",
+                "liboppo_log_print",
+                "libbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
+                "libjpeg",
+                "libexif",
+                "libmpbase",
+                "libOppoAPSMemMgr",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-impl",
     owner: "realme",
     strip: {
@@ -12578,6 +12503,37 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOppoAlgoClient",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libOppoAlgoClient.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhidlbase",
+                "libhidltransport",
+                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
+                "libOppoAPSMemMgr",
                 "libc++",
                 "libc",
                 "libm",

@@ -367,14 +367,12 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.goodix_G2.default \
     fingerprint.goodix_G3.default \
-    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
     libOPPORectify \
     libOpenCL \
     libOppoAPSMemMgr \
-    libOppoAlgoClient \
     libPolarrRender \
     libSNPE \
     libSonyIMX471RmscLibrary \
@@ -594,6 +592,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
+    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
@@ -621,6 +620,7 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libOppoAlgoClient \
     libPerfectlyClearCrux \
     libQSEEComAPI \
     libQTEEConnector_vendor \
