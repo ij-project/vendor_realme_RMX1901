@@ -333,7 +333,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcdsp_default_listener \
     libcdsprpc \
-    libcom.qti.chinodeutils \
     libcvface_api \
     libdiag \
     libdsutils \
@@ -352,7 +351,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libmpbase \
     libocam_common \
-    libocam_snapshot_intf \
     liboppo_aisd \
     liboppo_log_print \
     liboppo_platform_hwi \
@@ -427,9 +425,6 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadm \
     libadpcmdec \
-    libarcsoft_dualcam_portrait_shot \
-    libarcsoft_hdr_couple_api \
-    libarcsoft_high_dynamic_range_couple \
     libarcsoft_picauto \
     libaudcal \
     libaudio_log_utils \
@@ -619,7 +614,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_hdrplus_hvx_stub \
     libarcsoft_portraitSN_hvx_stub \
     libarcsoft_portrait_super_night_raw \
-    libarcsoft_relighting_pro_image \
     libarcsoft_super_night_raw \
     libarm_proxy_skel \
     libbatching \
@@ -632,6 +626,7 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
+    libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
     libdataitems \
@@ -678,6 +673,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
+    libocam_snapshot_intf \
     libops \
     libpdmapper \
     libpdnotifier \
