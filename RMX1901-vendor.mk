@@ -261,12 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_imx586.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.tuned.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.ofilm_gc5035.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.tuned.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_imx586.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_imx471.bin \
     vendor/realme/RMX1901/proprietary/vendor/lib/camera/data.zip:$(TARGET_COPY_OUT_VENDOR)/lib/camera/data.zip \
     vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
     vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
@@ -294,66 +288,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    com.qti.sensor.gc2375h \
-    com.qti.sensor.gc5035 \
-    com.qti.sensor.hi846 \
-    com.qti.sensor.imx316 \
-    com.qti.sensor.imx362 \
-    com.qti.sensor.imx471 \
-    com.qti.sensor.imx519 \
-    com.qti.sensor.imx586 \
-    com.qti.sensor.s5k2x5 \
-    com.qti.sensor.s5k3p9sp \
-    com.qti.sensor.s5kgw1 \
-    com.qti.sensor.sp2509v \
-    com.arcsoft.node.yuvhdr \
-    com.oppo.node.bokeh \
-    com.oppo.node.drawafinfo \
-    com.oppo.node.frontbokeh \
-    com.oppo.node.frontrtb \
-    com.oppo.node.oppoengmode \
-    com.oppo.node.postview \
-    com.oppo.node.preview \
-    com.oppo.node.rearrtb \
-    com.oppo.node.sat \
-    com.oppo.node.slicm \
-    com.oppo.node.snapshota \
-    com.oppo.node.snapshotb \
-    com.oppo.node.tof \
-    com.oppo.node.tofmatch \
-    com.qti.eisv2 \
-    com.qti.eisv3 \
-    com.qti.hvx.addconstant \
-    com.qti.hvx.binning \
-    com.qti.node.dummyrtb \
-    com.qti.node.dummysat \
-    com.qti.node.eisv2 \
-    com.qti.node.eisv3 \
-    com.qti.node.gpu \
-    com.qti.node.memcpy \
-    com.qti.node.opposwremosaic \
-    com.qti.node.remosaic \
-    com.qti.node.stich \
-    com.qti.node.superphoto \
-    com.qti.node.swregistration \
-    com.qti.stats.aec \
-    com.qti.stats.af \
-    com.qti.stats.afd \
-    com.qti.stats.asd \
-    com.qti.stats.awb \
-    com.qti.stats.awbwrapper \
-    com.qti.stats.haf \
-    com.qti.stats.localhistogram \
-    com.qti.stats.pdlib \
-    com.qti.stats.pdlibsony \
-    com.qti.stats.pdlibwrapper \
-    com.qtistatic.stats.aec \
-    com.qtistatic.stats.af \
-    com.qtistatic.stats.awb \
-    com.qtistatic.stats.pdlib \
-    com.slam.node.process \
-    com.vidhance.node.eis \
-    com.vidhance.stats.aec_dmbr \
     com.dsi.ant@1.0 \
     eglSubDriverAndroid \
     libEGL_adreno \
@@ -576,6 +510,66 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     android.frameworks.fingerprintservice@1.0 \
+    com.qti.sensor.gc2375h \
+    com.qti.sensor.gc5035 \
+    com.qti.sensor.hi846 \
+    com.qti.sensor.imx316 \
+    com.qti.sensor.imx362 \
+    com.qti.sensor.imx471 \
+    com.qti.sensor.imx519 \
+    com.qti.sensor.imx586 \
+    com.qti.sensor.s5k2x5 \
+    com.qti.sensor.s5k3p9sp \
+    com.qti.sensor.s5kgw1 \
+    com.qti.sensor.sp2509v \
+    com.arcsoft.node.yuvhdr \
+    com.oppo.node.bokeh \
+    com.oppo.node.drawafinfo \
+    com.oppo.node.frontbokeh \
+    com.oppo.node.frontrtb \
+    com.oppo.node.oppoengmode \
+    com.oppo.node.postview \
+    com.oppo.node.preview \
+    com.oppo.node.rearrtb \
+    com.oppo.node.sat \
+    com.oppo.node.slicm \
+    com.oppo.node.snapshota \
+    com.oppo.node.snapshotb \
+    com.oppo.node.tof \
+    com.oppo.node.tofmatch \
+    com.qti.eisv2 \
+    com.qti.eisv3 \
+    com.qti.hvx.addconstant \
+    com.qti.hvx.binning \
+    com.qti.node.dummyrtb \
+    com.qti.node.dummysat \
+    com.qti.node.eisv2 \
+    com.qti.node.eisv3 \
+    com.qti.node.gpu \
+    com.qti.node.memcpy \
+    com.qti.node.opposwremosaic \
+    com.qti.node.remosaic \
+    com.qti.node.stich \
+    com.qti.node.superphoto \
+    com.qti.node.swregistration \
+    com.qti.stats.aec \
+    com.qti.stats.af \
+    com.qti.stats.afd \
+    com.qti.stats.asd \
+    com.qti.stats.awb \
+    com.qti.stats.awbwrapper \
+    com.qti.stats.haf \
+    com.qti.stats.localhistogram \
+    com.qti.stats.pdlib \
+    com.qti.stats.pdlibsony \
+    com.qti.stats.pdlibwrapper \
+    com.qtistatic.stats.aec \
+    com.qtistatic.stats.af \
+    com.qtistatic.stats.awb \
+    com.qtistatic.stats.pdlib \
+    com.slam.node.process \
+    com.vidhance.node.eis \
+    com.vidhance.stats.aec_dmbr \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
