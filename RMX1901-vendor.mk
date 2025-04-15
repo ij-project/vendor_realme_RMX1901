@@ -298,7 +298,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
