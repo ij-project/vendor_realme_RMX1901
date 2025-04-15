@@ -298,9 +298,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    vendor.qti.hardware.bluetooth_sar@1.1-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
-    vendor.qti.hardware.btconfigstore@2.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
@@ -397,8 +394,6 @@ PRODUCT_PACKAGES += \
     qcom.camera.log \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.qti.data.mwqem@1.0 \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
-    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.vpp@1.1 \
@@ -570,6 +565,7 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_G3.default \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
+    vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qccvndhal@1.0-impl \
@@ -756,6 +752,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
     vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
