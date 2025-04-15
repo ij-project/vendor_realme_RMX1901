@@ -298,8 +298,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    fingerprint.goodix_G2.default \
-    fingerprint.goodix_G3.default \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -323,7 +321,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_smart_denoise \
-    libarm_proxy_skel \
     libc++_shared \
     libc2d30_bltlib \
     libcamera_core_hwi \
@@ -344,11 +341,8 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libfastrpc_utf_stub \
-    libgf_hal_G2 \
-    libgf_hal_G3 \
     libgpudataproducer \
     libgsl \
-    libhvx_proxy_stub \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
@@ -405,13 +399,10 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     qcom.camera.log \
     vendor.oplus.hardware.commondcs@1.0 \
-    vendor.oppo.hardware.commondcs@1.0 \
-    vendor.oppo.hardware.hypnus@1.0 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -424,7 +415,6 @@ PRODUCT_PACKAGES += \
     libOccluDetect \
     libOmxVideoDSMode \
     libOmxVpp \
-    libOppoAlgoClient \
     libSCES \
     libSTDualCamCaptureBokeh \
     libSTDualCamPreviewBokeh \
@@ -582,6 +572,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
+    fingerprint.goodix_G2.default \
+    fingerprint.goodix_G3.default \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
@@ -630,6 +622,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_portrait_super_night_raw \
     libarcsoft_relighting_pro_image \
     libarcsoft_super_night_raw \
+    libarm_proxy_skel \
     libbatching \
     libbokehclient \
     libbtnv \
@@ -653,11 +646,14 @@ PRODUCT_PACKAGES += \
     libgarden_haltests_e2e \
     libgdtap \
     libgeofencing \
+    libgf_hal_G2 \
+    libgf_hal_G3 \
     libgnss \
     libgnsspps \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
+    libhvx_proxy_stub \
     libhypnusclient \
     libizat_client_api \
     libizat_core \
@@ -750,6 +746,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
+    vendor.oppo.hardware.commondcs@1.0 \
+    vendor.oppo.hardware.hypnus@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -773,6 +771,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.latency@1.0_vendor \
     vendor.qti.hardware.data.qmi@1.0 \
+    vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \

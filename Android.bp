@@ -538,118 +538,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "fingerprint.goodix_G2.default",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/fingerprint.goodix_G2.default.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libgf_hal_G2",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.goodix_G2.default.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libgf_hal_G2",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "fingerprint.goodix_G3.default",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/fingerprint.goodix_G3.default.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libgf_hal_G3",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.goodix_G3.default.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libgf_hal_G3",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl",
     owner: "realme",
     strip: {
@@ -1630,41 +1518,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarm_proxy_skel",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libarm_proxy_skel.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhvx_proxy_stub",
-                "libm",
-                "libc",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libarm_proxy_skel.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhvx_proxy_stub",
-                "libm",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libc++_shared",
     owner: "realme",
     strip: {
@@ -2517,116 +2370,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgf_hal_G2",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgf_hal_G2.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libQSEEComAPI",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgf_hal_G2.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libQSEEComAPI",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgf_hal_G3",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgf_hal_G3.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libQSEEComAPI",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgf_hal_G3.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhwbinder",
-                "libhidltransport",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libion",
-                "libQSEEComAPI",
-                "libc",
-                "libm",
-                "libdl",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libgpudataproducer",
     owner: "realme",
     strip: {
@@ -2700,43 +2443,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhvx_proxy_stub",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhvx_proxy_stub.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libcdsprpc",
-                "libm",
-                "libc",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhvx_proxy_stub.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libcdsprpc",
-                "libm",
-                "libc",
             ],
         },
     },
@@ -5067,100 +4773,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oppo.hardware.commondcs@1.0",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.oppo.hardware.commondcs@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.oppo.hardware.hypnus@1.0",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.oppo.hardware.hypnus@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.data.mwqem@1.0",
     owner: "realme",
     strip: {
@@ -5316,49 +4928,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fingerprint@1.0",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -5783,37 +5352,6 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOppoAlgoClient",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOppoAlgoClient.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0",
-                "libOppoAPSMemMgr",
                 "libc++",
                 "libc",
                 "libm",
@@ -10416,6 +9954,76 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "fingerprint.goodix_G2.default",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/fingerprint.goodix_G2.default.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libgf_hal_G2",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.goodix_G3.default",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/fingerprint.goodix_G3.default.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libgf_hal_G3",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-impl",
     owner: "realme",
     strip: {
@@ -11850,6 +11458,30 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libarm_proxy_skel",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarm_proxy_skel.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libhvx_proxy_stub",
+                "libm",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbatching",
     owner: "realme",
     strip: {
@@ -12559,6 +12191,74 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libgf_hal_G2",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgf_hal_G2.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libQSEEComAPI",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal_G3",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgf_hal_G3.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libQSEEComAPI",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libgnss",
     owner: "realme",
     strip: {
@@ -12691,6 +12391,31 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhvx_proxy_stub",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhvx_proxy_stub.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libdl",
+                "libcdsprpc",
+                "libm",
+                "libc",
             ],
         },
     },
@@ -15430,6 +15155,66 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.commondcs@1.0",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oppo.hardware.hypnus@1.0",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.0",
     owner: "realme",
     strip: {
@@ -16134,6 +15919,34 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.fingerprint@1.0",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
