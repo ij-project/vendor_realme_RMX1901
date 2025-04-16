@@ -13,15 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/realme/RMX1901/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
     vendor/realme/RMX1901/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/oppo_camera_config.xml \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/Charming.cng:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/Charming.cng \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/M_Verify_Faster_Common_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/M_Verify_Faster_Common_wp.model \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/doubleloss_large.model:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/doubleloss_large.model \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/faceTpl0.rgb32:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/faceTpl0.rgb32 \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/faceTpl1.rgb32:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/faceTpl1.rgb32 \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/gasryuv.model:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/gasryuv.model \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/merged_model \
-    vendor/realme/RMX1901/proprietary/odm/etc/camera/singleblur/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/merged_model_post \
     vendor/realme/RMX1901/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/realme/RMX1901/proprietary/odm/etc/init/init.network.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.network.rc \
     vendor/realme/RMX1901/proprietary/odm/etc/sensor/config/alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/alsps.json \
@@ -55,19 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/etc/OPPO_OLED_AD_calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/OPPO_OLED_AD_calib.cfg \
     vendor/realme/RMX1901/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/RMX1901/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/Charming.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Charming.cng \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/arc_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_golden.bin \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortionParams.bin \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/license.lic \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
-    vendor/realme/RMX1901/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/realme/RMX1901/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/realme/RMX1901/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/realme/RMX1901/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -231,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/realme/RMX1901/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/realme/RMX1901/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
-    vendor/realme/RMX1901/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/realme/RMX1901/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
     vendor/realme/RMX1901/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/realme/RMX1901/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
@@ -261,21 +238,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/RMX1901/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/data.zip:$(TARGET_COPY_OUT_VENDOR)/lib/camera/data.zip \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx586.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_gc5035.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx586.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx471.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/realme/RMX1901/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/realme/RMX1901/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/realme/RMX1901/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/realme/RMX1901/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
@@ -295,42 +257,18 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
-    camera.qcom \
     com.dsi.ant@1.0-impl \
-    com.qti.chi.override \
     vulkan.adreno \
     libC2D2 \
     libCB \
-    libOPPORectify \
     libOpenCL \
-    libOppoAPSMemMgr \
-    libPolarrRender \
-    libSNPE \
-    libSonyIMX471RmscLibrary \
     libVkLayer_q3dtools \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libarcsoft_distortion_correction \
-    libarcsoft_distortion_correction_710 \
-    libarcsoft_hdr_denoise_api \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_hdr \
-    libarcsoft_smart_denoise \
-    libc++_shared \
     libc2d30_bltlib \
-    libcamera_core_hwi \
-    libcamera_nn_stub \
-    libcamhidlsensor \
-    libcamxfdalgov7 \
-    libcamxfdalgov8 \
-    libcamxfdengine \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libcdsp_default_listener \
     libcdsprpc \
-    libcvface_api \
     libdiag \
     libdsutils \
     libfastcvdsp_stub \
@@ -343,16 +281,7 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libmdmdetect \
     libmdsprpc \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
     libmmosal_vendor \
-    libmpbase \
-    libocam_common \
-    liboppo_aisd \
-    liboppo_log_print \
-    liboppo_platform_hwi \
-    liboppoalgolib \
-    libopposfr \
     libqcmaputils \
     libqmi \
     libqmi_cci \
@@ -369,30 +298,12 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
-    libsensorslog \
-    libsns_device_mode_stub \
-    libsns_fastRPC_util \
-    libsns_low_lat_stream_stub \
-    libsnsapi \
-    libsnsdiaglog \
-    libssc \
-    libssc_default_listener \
-    libstface_fd_api \
-    libswregistrationalgo \
-    libsymphony-cpu \
-    libsymphonypower \
     libsysmon_cdsp_skel \
     libthermalclient \
     libtime_genoff \
-    libtriplecam_image_optical_zoom \
-    libtriplecam_optical_zoom_control \
-    libtriplecam_video_optical_zoom \
-    libvidhance \
     libvppclient \
     libvpphvx \
     libvpplibrary \
-    qcom.camera.log \
-    vendor.oplus.hardware.commondcs@1.0 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
@@ -404,63 +315,36 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.sdm710 \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
-    libOccluDetect \
     libOmxVideoDSMode \
     libOmxVpp \
-    libSCES \
-    libSTDualCamCaptureBokeh \
-    libSTDualCamPreviewBokeh \
-    libSTdisp \
-    libSonyIMX519MbrLibrary \
-    libVDImageAdjustment \
-    libVDRTImageAdjustment \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
     libadm \
     libadpcmdec \
-    libarcsoft_picauto \
     libaudcal \
     libaudio_log_utils \
     libaudioalsa \
     libbluetooth_audio_session_qti \
-    libblur_channel \
     libcapiv2svacnn \
     libcapiv2vop \
     libcirrusspkrprot \
-    libdepthmap \
     libdrc \
-    libfastcrc \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libiu456_datapath_filt_lib \
-    libiu456_datapath_processor \
     liblistensoundmodel2 \
     libmm-hdcpmgr \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
-    libnnp \
-    libobcdepth_hal \
-    liboppocamalgo_daemon \
     libqtigef \
-    libsdk_3d \
-    libsdk_common \
     libsmwrapper \
-    libsns_registry_skel \
     libssrec \
-    libst_personblur \
-    libst_scb_dep1 \
-    libst_segmentation \
-    libstblur_capture_api \
-    libstface_seg_ocl \
     libsurround_3mic_proc \
-    libthread_blur \
     libtinycompress \
-    libvideoutils \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -489,66 +373,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     android.frameworks.fingerprintservice@1.0 \
-    com.qti.sensor.gc2375h \
-    com.qti.sensor.gc5035 \
-    com.qti.sensor.hi846 \
-    com.qti.sensor.imx316 \
-    com.qti.sensor.imx362 \
-    com.qti.sensor.imx471 \
-    com.qti.sensor.imx519 \
-    com.qti.sensor.imx586 \
-    com.qti.sensor.s5k2x5 \
-    com.qti.sensor.s5k3p9sp \
-    com.qti.sensor.s5kgw1 \
-    com.qti.sensor.sp2509v \
-    com.arcsoft.node.yuvhdr \
-    com.oppo.node.bokeh \
-    com.oppo.node.drawafinfo \
-    com.oppo.node.frontbokeh \
-    com.oppo.node.frontrtb \
-    com.oppo.node.oppoengmode \
-    com.oppo.node.postview \
-    com.oppo.node.preview \
-    com.oppo.node.rearrtb \
-    com.oppo.node.sat \
-    com.oppo.node.slicm \
-    com.oppo.node.snapshota \
-    com.oppo.node.snapshotb \
-    com.oppo.node.tof \
-    com.oppo.node.tofmatch \
-    com.qti.eisv2 \
-    com.qti.eisv3 \
-    com.qti.hvx.addconstant \
-    com.qti.hvx.binning \
-    com.qti.node.dummyrtb \
-    com.qti.node.dummysat \
-    com.qti.node.eisv2 \
-    com.qti.node.eisv3 \
-    com.qti.node.gpu \
-    com.qti.node.memcpy \
-    com.qti.node.opposwremosaic \
-    com.qti.node.remosaic \
-    com.qti.node.stich \
-    com.qti.node.superphoto \
-    com.qti.node.swregistration \
-    com.qti.stats.aec \
-    com.qti.stats.af \
-    com.qti.stats.afd \
-    com.qti.stats.asd \
-    com.qti.stats.awb \
-    com.qti.stats.awbwrapper \
-    com.qti.stats.haf \
-    com.qti.stats.localhistogram \
-    com.qti.stats.pdlib \
-    com.qti.stats.pdlibsony \
-    com.qti.stats.pdlibwrapper \
-    com.qtistatic.stats.aec \
-    com.qtistatic.stats.af \
-    com.qtistatic.stats.awb \
-    com.qtistatic.stats.pdlib \
-    com.slam.node.process \
-    com.vidhance.node.eis \
-    com.vidhance.stats.aec_dmbr \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -586,34 +410,17 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
-    lib3DSlender \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libPerfectlyClearCrux \
     libQSEEComAPI \
     libQTEEConnector_vendor \
     libSecureUILib \
     libStDrvInt \
-    libVDBlurlessAPI_v2 \
-    libVDDualCameraBlurlessAPI \
-    libVDEyeEnhance \
-    libVDPostureDetection \
-    libVDSuperPhotoAPI \
     libaoa \
-    libarcsoft_beautyshot \
-    libarcsoft_dualcam_bokeh_api \
-    libarcsoft_dualcam_refocus_left \
-    libarcsoft_dualcam_refocus_preview \
-    libarcsoft_dualcam_refocus_right \
-    libarcsoft_hdrplus_hvx_stub \
-    libarcsoft_portraitSN_hvx_stub \
-    libarcsoft_portrait_super_night_raw \
-    libarcsoft_super_night_raw \
     libarm_proxy_skel \
     libbatching \
-    libbokehclient \
     libbtnv \
     libcacertclient \
     libcdfw \
@@ -622,7 +429,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
     libdataitems \
@@ -651,7 +457,6 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    libloadalgo_stub \
     libloc_api_v02 \
     libloc_core \
     libloc_socket \
@@ -663,13 +468,11 @@ PRODUCT_PACKAGES += \
     liblqe \
     libminkdescriptor \
     libminksocket \
-    libnativehelpers \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
-    libocam_snapshot_intf \
     libops \
     libpdmapper \
     libpdnotifier \
@@ -703,12 +506,16 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
+    libsensorslog \
     libsettings \
     libslimclient \
-    libsnpe_dsp_domains_v2 \
-    libsnpeml \
+    libsns_device_mode_stub \
+    libsnsapi \
+    libsnsdiaglog \
     libspcom \
     libspl \
+    libssc \
+    libssc_default_listener \
     libssd \
     libsystem_health_mon \
     libtinyxml2_1 \
@@ -894,17 +701,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     libbsproxy \
     oplus.sensors.ssc \
-    libSNPE_G \
     libaudioEngineerTest \
     liboemcrypto \
-    libormshalclient \
-    libswresample \
-    libswscale \
     libwvhidl \
     libwvdrmengine \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.ims@1.0 \
-    vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.radio@1.0 \
     CneApp \
     IWlanService \
