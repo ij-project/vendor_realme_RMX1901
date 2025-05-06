@@ -310,6 +310,56 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.health@2.0-impl-2.1-qti",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "android.hardware.health@2.0",
+                "android.hardware.health@2.1",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "android.hardware.health@2.0",
+                "android.hardware.health@2.1",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vulkan.adreno",
     owner: "realme",
     strip: {
@@ -18634,6 +18684,15 @@ dex_import {
         "proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar",
     ],
     system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.health@2.1.xml",
+    owner: "realme",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
 }
 
 prebuilt_etc_xml {

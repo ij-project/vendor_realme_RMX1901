@@ -289,6 +289,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    android.hardware.health@2.0-impl-2.1-qti \
     vulkan.adreno \
     libC2D2 \
     libCB \
@@ -903,6 +904,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcssipaidlservice-V1-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     vendor.qti.latency-V2.0-java \
+    android.hardware.health@2.1.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     ATFWD-daemon \
     adpl \
