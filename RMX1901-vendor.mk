@@ -777,39 +777,39 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0_vendor \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libVDHexagonBlurless_skel \
-    libVDHexagonBlurless_v2_skel \
-    libVDHexagonSuperPhoto_skel \
-    libapps_mem_heap \
-    libarcsoft_dualcam_refocus_skel \
-    libarcsoft_hdrplus_hvx_skel \
-    libarcsoft_portraitSN_hvx_skel \
-    libc++.so \
-    libc++abi.so \
-    libcamera_nn_skel \
-    libdepthmap_skel \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libktvdrc \
-    libktveffect \
-    libktveq \
-    libktvns \
-    libktvpitchshift \
-    libktvreverb \
-    libktvvolume \
-    libproxy_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsnpe_dsp_v65_domains_v2_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
-    libthread_blur_skel \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so \
+    vendor_lib_rfsa_adsp_libVC1Dec_so \
+    vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \
+    vendor_lib_rfsa_adsp_libVDHexagonBlurless_skel_so \
+    vendor_lib_rfsa_adsp_libVDHexagonBlurless_v2_skel_so \
+    vendor_lib_rfsa_adsp_libVDHexagonSuperPhoto_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libarcsoft_dualcam_refocus_skel_so \
+    vendor_lib_rfsa_adsp_libarcsoft_hdrplus_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libarcsoft_portraitSN_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libc++_so_1 \
+    vendor_lib_rfsa_adsp_libc++abi_so_1 \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libdepthmap_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhexagon_nn_skel_so \
+    vendor_lib_rfsa_adsp_libktvdrc_so \
+    vendor_lib_rfsa_adsp_libktveffect_so \
+    vendor_lib_rfsa_adsp_libktveq_so \
+    vendor_lib_rfsa_adsp_libktvns_so \
+    vendor_lib_rfsa_adsp_libktvpitchshift_so \
+    vendor_lib_rfsa_adsp_libktvreverb_so \
+    vendor_lib_rfsa_adsp_libktvvolume_so \
+    vendor_lib_rfsa_adsp_libproxy_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v65_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
+    vendor_lib_rfsa_adsp_libthread_blur_skel_so \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
