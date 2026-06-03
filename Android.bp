@@ -310,7 +310,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.health@2.0-impl-2.1-qti",
+    name: "android.hardware.health@2.1-impl-qti",
+    stem: "android.hardware.health@2.0-impl-2.1-qti",
     owner: "realme",
     strip: {
         none: true,
